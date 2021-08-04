@@ -1,0 +1,8 @@
+.App {
+  background-color: hsl(0, 100%, 74%);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
