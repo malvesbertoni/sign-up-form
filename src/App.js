@@ -4,10 +4,7 @@ import Form from "./components/Form";
 
 function App() {
   return (
-    <div
-      className="App"
-      style={{ backgroundImage: "url(/bg-intro-desktop.png)" }}
-    >
+    <div className="App">
       <Information />
       <Form />
     </div>
