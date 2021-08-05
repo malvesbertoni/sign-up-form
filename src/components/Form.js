@@ -2,21 +2,23 @@ import "./Form.css";
 
 const Form = () => {
   return (
-    <div className="form-wrapper">
+    <div className="wrapper">
       <button className="bt-free-trial">
-        Try it free 7 days then $20/mo. thereafter
+        <span>Try it free 7 days</span> then $20/mo. thereafter
       </button>
-      <div className="form">
+      <div className="form-wrapper">
         <form>
           <input type="text" placeholder="First Name"></input>
           <input type="text" placeholder="Last Name"></input>
           <input type="email" placeholder="Email Address"></input>
           <input type="password" placeholder="Password"></input>
-          <button className="bt-claim">CLAIM YOUR FREE TRIAL</button>
+          <button type="submit" className="bt-claim">
+            CLAIM YOUR FREE TRIAL
+          </button>
         </form>
         <p>
           By clicking the button, you are agreeing to our
-          <span>Terms and Services</span>
+          <span> Terms and Services</span>
         </p>
       </div>
     </div>

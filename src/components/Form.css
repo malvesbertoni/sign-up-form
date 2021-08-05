@@ -1,4 +1,35 @@
-.form {
+.wrapper {
+  left: 0%;
+  margin: 0;
+}
+
+.bt-free-trial {
+  background-color: hsl(248, 32%, 49%);
+
+  width: 100%;
+  height: 6vh;
+
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 8px 1px rgba(0, 0, 0, 0.144);
+
+  font-weight: 400;
+  color: white;
+}
+
+.bt-free-trial:hover {
+  background-color: hsl(248, 42%, 57%);
+}
+
+.bt-free-trial:active {
+  background-color: rgb(90, 80, 156);
+}
+
+.bt-free-trial span {
+  font-weight: 700;
+}
+
+.form-wrapper {
   background-color: white;
 
   display: flex;
@@ -7,7 +38,7 @@
   align-items: center;
 
   margin-top: 4vh;
-  width: 65%;
+  width: 100%;
   height: 50vh;
 
   border-radius: 8px;
@@ -15,7 +46,7 @@
   padding: 3vh 6vh;
 }
 
-.form form {
+.form-wrapper form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +57,7 @@
 
 input {
   margin: 1vh 0 1vh 0;
-  width: 90%;
+  width: 85%;
   height: 6vh;
 
   padding: 1px 2vw;
@@ -42,4 +73,39 @@ input {
 input:focus {
   outline: none;
   border: 2px solid hsl(249, 10%, 26%);
+}
+
+.bt-claim {
+  margin: 1vh 0 1vh 0;
+  width: 100%;
+  height: 6vh;
+
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.479);
+
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.bt-claim:hover {
+  background-color: hsl(154, 69%, 55%);
+  cursor: pointer;
+}
+
+.bt-claim:active {
+  background-color: hsla(154, 57%, 36%, 0.774);
+}
+
+.form-wrapper p {
+  font-weight: 400;
+  font-size: 0.6em;
+  color: hsl(246, 25%, 77%);
+}
+
+.form-wrapper span {
+  font-weight: 600;
+  color: hsl(0, 100%, 74%);
 }
