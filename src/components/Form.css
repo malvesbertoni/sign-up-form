@@ -1,12 +1,12 @@
 .wrapper {
-  left: 0%;
-  margin: 0;
+  width: 70%;
+  justify-self: start;
 }
 
 .bt-free-trial {
   background-color: hsl(248, 32%, 49%);
 
-  width: 100%;
+  width: 40vw;
   height: 6vh;
 
   border-radius: 6px;
@@ -19,6 +19,7 @@
 
 .bt-free-trial:hover {
   background-color: hsl(248, 42%, 57%);
+  cursor: pointer;
 }
 
 .bt-free-trial:active {
@@ -38,12 +39,12 @@
   align-items: center;
 
   margin-top: 4vh;
-  width: 100%;
+  width: 40vw;
   height: 50vh;
+  padding: 3vh 0;
 
   border-radius: 8px;
   box-shadow: 1px 8px 1px rgba(0, 0, 0, 0.144);
-  padding: 3vh 6vh;
 }
 
 .form-wrapper form {
@@ -57,7 +58,7 @@
 
 input {
   margin: 1vh 0 1vh 0;
-  width: 85%;
+  width: 80%;
   height: 6vh;
 
   padding: 1px 2vw;
@@ -77,7 +78,7 @@ input:focus {
 
 .bt-claim {
   margin: 1vh 0 1vh 0;
-  width: 100%;
+  width: 90%;
   height: 6vh;
 
   border: none;
