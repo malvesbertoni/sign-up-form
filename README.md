@@ -5,7 +5,6 @@ This project displays a sign up form that collects users' data and shows an erro
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -20,10 +19,6 @@ Users should be able to:
   - Any `input` field is empty;
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`);
   - The password is shorter than 4 characters;
-
-### Screenshot
-
-![](./images/ScreenshotDesktop.png)
 
 ### Links
 
